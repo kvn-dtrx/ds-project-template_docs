@@ -5,4 +5,4 @@ data/
 plots/
 *.egg-info/
 __pycache__/
-*.pyc
+*.pyi

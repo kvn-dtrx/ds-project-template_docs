@@ -32,6 +32,9 @@ unix:
 	$(VENV)/bin/python -m pip install --upgrade pip
 	$(VENV)/bin/python -m pip install -e .
 
+gen-stubs:
+	$(VENV)/bin/python -m stubgen -o src src/local_nbutils
+
 win:
 	pyenv local $(PYTHON_VERSION)
 	python -m venv $(VENV)

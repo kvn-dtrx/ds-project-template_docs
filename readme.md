@@ -91,9 +91,25 @@
      .\.venv\Scripts\Activate.ps1
      ```
 
-## <a name="licence"></a>Licence<small><sup>[↩](#licence)</sup></small>
+---
 
-🪺 License
+## <a name="colophon"></a>Colophon<small><sup>[↩](#colophon)</sup></small>
 
-Add your license (MIT, Apache, etc.), or link to LICENSE
+**Authors:**
+
+- [The Octocat](https://github.com/octocat)
+- [Ghost](https://github.com/ghost)
+
+**Template:**
+
+This repository was created from the [10NN DS/ML Project Template](https://github.com/neuefische/ds-take-me-home_template).
+
+**License:**
+
+[MIT License](licence.txt)
+
+**Acknowledgements:**
+
+I would also like to thank my ghostwriter [Gregory Peter Thompson](https://chatgpt.com).
+
 ---
