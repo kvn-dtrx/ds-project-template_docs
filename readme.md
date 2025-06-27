@@ -1,56 +1,45 @@
-# Project Title
+# Generic Data Science Project
+<!-- TODO: Update title -->
 
-> One-sentence summary of the project’s goal and outcome.
+---
 
-**TODO:** Update title
+**NOTE:**
 
-## Table of Contents
+Some general remarks /documents on usages elucidating can be found in [`meta/`](./meta/).
 
-- [Disclaimer](#disclaimer)
-- [Table of Contents](#table-of-contents)
-- [Synopsis](#synopsis)
-- [Installation](#installation)
-    - [Requirements](#requirements)
-    - [Setup](#setup)
-    - [Clean-Up](#clean-up)
-- [Usage](#usage)
-    - [Subcommands](#subcommands)
-    - [Examples](#examples)
+This note is intended to be remove before project submission.
 
-## <a name="synopsis"></a>Synopsis<small><sup>[↩](#table-of-contents)</sup></small>
+---
 
-**TODO:** Describe:
+## Synopsis
 
-- The business/research problem.
-- The objective of the project.
-- Key questions answered.
+### Problem Description
 
-## <a name="project-structure"></a>Project Structure<small><sup>[↩](#project-structure)</sup></small>
+<!-- 
+TODO: Write this section 
 
-``` text
-.
-├── data/             # Raw and processed data
-├── notebooks/        # Jupyter notebooks
-├── src/              # Source code (loading, cleaning, modeling)
-├── plots/            # Charts and visualisations
-├── requirements.txt  # Project configuration
-└── README.md         # Project overview
-```
+Aspects which can be addressed here:
 
-## <a name="data"></a>Data<small><sup>[↩](#data)</sup></small>
+- Problem:
+  - The business/research problem.
+  - The objective of the project.
+  - Key questions answered.
+- Data:
+  - Source(s) of data.
+  - How to access (if public).
+  - Description of columns/features.
+  - Size and format.
+- Results:
+  - Summary of findings (accuracy, metrics, charts).
+  - Visuals or links to reports (e.g., PDF, dashboard).
+  - Key insights.
+-->
 
-- Source(s) of data.
-- How to access (if public).
-- Description of columns/features.
-- Size and format.
+## Repository Organisation
 
-## <a name="results"></a>Results<small><sup>[↩](#results)</sup></small>
+The organisation of the repository follows common conventions and therefore requires little explanation. Our analysis notebooks (with technical details) are subordinated to [`notebooks/`](./notebooks/)
 
-- Summary of findings (accuracy, metrics, charts).
-- Visuals or links to reports (e.g., PDF, dashboard).
-- Key insights.
-
-## <a name="installation"></a>Installation<small><sup>[↩](#table-of-contents)</sup></small>
+## Installation
 
 ### Requirements
 
@@ -93,23 +82,16 @@
 
 ---
 
-## <a name="colophon"></a>Colophon<small><sup>[↩](#colophon)</sup></small>
+## Colophon
+<!-- TODO: Update section -->
 
 **Authors:**
 
 - [The Octocat](https://github.com/octocat)
 - [Ghost](https://github.com/ghost)
 
-**Template:**
+**Template:** This repository was created from the [10NN DS/ML Project Template](https://github.com/neuefische/ds-take-me-home_template).
 
-This repository was created from the [10NN DS/ML Project Template](https://github.com/neuefische/ds-take-me-home_template).
+**License:** [MIT License](license.txt)
 
-**License:**
-
-[MIT License](licence.txt)
-
-**Acknowledgements:**
-
-I would also like to thank my ghostwriter [Gregory Peter Thompson](https://chatgpt.com).
-
----
+**Acknowledgements:** The first author would also like to thank his ghostwriter [Gregory Peter Thompson](https://chatgpt.com).
