@@ -1,94 +1,63 @@
-# Data Science Project
-<!-- TODO: Update title -->
-
----
-
-**NOTE:**
-
-Some general remarks /documents on usages elucidating can be found in [`meta/`](./meta/).
-
-⚠️⚠️⚠️ This note is intended to be removed before project submission. ⚠️⚠️⚠️
-
----
+# Data Science Project Template
 
 ## Synopsis
 
-### Problem Description
+This repository tries to provide a convenient template for *take-me-home* challenges as they are usual in job application processes.
 
-<!-- 
-TODO: Write this section 
+but it is not restricted to. It contains more than
 
-Aspects which can be addressed here:
+It contains surely more and A bit overkill, feel free to remove those parts.
 
-- Problem:
-  - The business/research problem.
-  - The objective of the project.
-  - Key questions answered.
-- Data:
-  - Source(s) of data.
-  - How to access (if public).
-  - Description of columns/features.
-  - Size and format.
-- Results:
-  - Summary of findings (accuracy, metrics, charts).
-  - Visuals or links to reports (e.g., PDF, dashboard).
-  - Key insights.
--->
+## Usage
 
-## Repository Organisation
+### Repository on GitHub
 
-The organisation of the repository follows common conventions and therefore requires little explanation. Our analysis notebooks (with technical details) are subordinated to [`notebooks/`](./notebooks/)
+If you possess a GitHub account, you may create a new repository based upon this template either through your web browser or, if you have installed the GitHub command-line utility gh, via the terminal.
 
-## Installation
+#### Browser Method
 
-### Requirements
+You may open the following link:
 
-- Python 3.11.3
-- pyenv
+<https://github.com/kvn-dtrx/ds-project-template/generate>
 
-### Setup
+This is equivalent to opening the [main page](https://github.com/kvn-dtrx/ds-project-template) of the template repository and selecting the green "Use this template" in the top right corner of the window, then choosing "Create a new repository".
 
-1. Navigate to a working directory of your choice, then clone the repository and enter it:
+Complete the forms according to your requirements and press the green "Create repository" button in the bottom right corner.
 
-   ``` shell
-   git clone https://github.com/<username>/<reponame>.git &&
-       cd <reponame>
-   ```
+#### Terminal Method
 
-2. Choose a setup option based on your operating system and intended use:
+Assuming that you are authenticated on CLI, the repository creation may also be performed by completing the following command template:
 
-   - `make basic-unix` / `make basic-win`: for general use or exploration (core dependencies only).
-   - `make dev-unix` / `make dev-win`: for contributors (includes development tools like linters and pre-commit hooks).
+``` shell
+gh repo create \
+    <reponame> \
+    <visibility> \
+    --template kvn-dtrx/ds-project-template
+```
 
-   If you prefer to run the commands manually yourself or want to inspect what each `make` target does first, use the `-n` flag for a dry run. This prints the commands without executing them:
+Here, you may supply a name for the repository and specify your preferred visibility option such as` --private` or `--public`.
 
-   ``` shell
-   make -n <target>
-   ```
+### Local Repository
 
-3. Activate the virtual environment:
+If you have no GitHub account and are not willed to create one (and the repository is visible for you), you can simply clone the repository and reset the history[^gh-templates]:
 
-   - On macOS/Linux, run:
+On the command line, navigate to a working directory of your choice, then clone the repository and enter it:
 
-     ```shell
-     source .venv/bin/activate
-     ```
+``` shell
+git clone \
+    https://github.com/neuefische/ds-take-me-home_template.git \
+    <reponame> &&
+        cd <reponame> &&
+        rm -rf .git &&
+        git init
+```
 
-   - On Windows (PowerShell), run:
-
-     ``` powershell
-     .\.venv\Scripts\Activate.ps1
-     ```
-
----
+[^gh-templates]: Of course, GitHub's templating mechanism offers more benefits than a "clean history", cf. <https://gitprotect.io/blog/how-to-use-github-repository-templates>.
 
 ## Colophon
-<!-- TODO: Update section -->
 
-**Authors:** [The Octocat](https://github.com/octocat), [Ghost](https://github.com/ghost)
+**Authors:** [kvn-dtrx](https://github.com/kvn-dtrx)
 
-**Template:** This repository was created from the [10NN DS/ML Project Template](https://github.com/neuefische/ds-take-me-home_template).
+**Template:** This repository was created from the [Data Science Project Template](https://github.com/kvn-dtrx/ds-project-template) (by infinite recursion).
 
 **License:** [MIT License](license.txt)
-
-**Acknowledgements:** The first author would also like to thank his ghostwriter [Gregory Peter Thompson](https://chatgpt.com).
