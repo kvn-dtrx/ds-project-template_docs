@@ -2,13 +2,20 @@
 
 ## Synopsis
 
-This repository tries to provide a convenient template for *take-me-home* challenges as they are usual in job application processes.
+**TODO:**
+
+This repository provides a convenient template for *take-me-home* challenges as commonly encountered in job application processes.
 
 but it is not restricted to. It contains more than
 
 It contains surely more and A bit overkill, feel free to remove those parts.
 
-## Usage
+Repository consists of two subtrees:
+
+- `template/`: The actual template.
+- `docs/`: A small documentation with checklist
+
+## Template Setup
 
 ### Repository on GitHub
 
@@ -26,7 +33,7 @@ Complete the forms according to your requirements and press the green "Create re
 
 #### Terminal Method
 
-Assuming that you are authenticated on CLI, the repository creation may also be performed by completing the following command template:
+Assuming that you are authenticated on CLI, you may likewise create a repository from the template by executing a command such as the following:
 
 ``` shell
 gh repo create \
@@ -35,22 +42,24 @@ gh repo create \
     --template kvn-dtrx/ds-project-template
 ```
 
-Here, you may supply a name for the repository and specify your preferred visibility option such as` --private` or `--public`.
+Here, you may supply a name for the repository and specify your preferred visibility option such as `--private` or `--public`.
 
 ### Local Repository
 
-If you have no GitHub account and are not willed to create one (and the repository is visible for you), you can simply clone the repository and reset the history[^gh-templates]:
+If you only need a local repository, rather than one hosted on GitHub, you may simply clone the template repository and purge its history.[^gh-templates]
 
-On the command line, navigate to a working directory of your choice, then clone the repository and enter it:
+In your terminal, navigate to a working directory of your choice and execute a command such as the following:
 
 ``` shell
 git clone \
-    https://github.com/neuefische/ds-take-me-home_template.git \
+    https://github.com/kvn-dtrx/ds-project-template_template.git \
     <reponame> &&
         cd <reponame> &&
         rm -rf .git &&
         git init
 ```
+
+Here, you may supply a name for the repository, of course.
 
 [^gh-templates]: Of course, GitHub's templating mechanism offers more benefits than a "clean history", cf. <https://gitprotect.io/blog/how-to-use-github-repository-templates>.
 
@@ -58,6 +67,6 @@ git clone \
 
 **Authors:** [kvn-dtrx](https://github.com/kvn-dtrx)
 
-**Template:** This repository was created from the [Data Science Project Template](https://github.com/kvn-dtrx/ds-project-template) (by infinite recursion).
+<!-- **Template:** This repository was created from the [Data Science Project Template](https://github.com/kvn-dtrx/ds-project-template) (by infinite recursion). -->
 
 **License:** [MIT License](license.txt)
